@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Advisor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/21e0291c53.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title"></div>
+            <div class="navbar">
+                <ul>
+                    <li><i style="font-size: 36px;" class="fa-brands fa-github"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="textarea">
+            	<h1>Diet Advisor</h1>
+                <p>Register to our application in order to check your current body mass index. The application calculates it and displays the status of your health while also providing detailed diet plants for all type of people. You will be able to print the diet charts and use them for your benefit.<br /><br/>P.S.- We strongly recommend you to visit a dietitian if your BMI is high.</p> <br />
+                <div style="display: flex;">
+                	<a href="login.jsp"><button class="button-68">Login</button></a>
+                	<a href="register.jsp"><button style="background-color: #3498db;" class="button-68">Register</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<style>
+body {
+    background-image: url('v870-tang-36.jpg');
+    background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	font-family: 'Fredoka', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+a {
+    text-decoration: none;
+    color:#1e8449;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #3A5743;
+    border-radius: 20px;
+}
+.title {
+    padding: 30px;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.navbar li:hover{
+    color: #3B7080;
+}
+.navbar li {
+    padding: 10px 50px 10px 50px;
+    list-style: none;
+}
+.login {
+    background-color: #ADE25D;
+    border-radius: 10px;
+}
+.content {
+    display: flex;
+}
+.textarea{
+    width: 30%;
+    margin-left: 900px;
+    margin-top: 60px;
+    font-size: larger;
+}
+.textarea h1 {
+	font-size: 50px;
+}
+.textarea p {
+	font-size: 24px;
+}
+.button-68 {
+  min-width: 100px;
+  margin: 30px;
+  margin-left: 80px;
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+</style>
+</html>
